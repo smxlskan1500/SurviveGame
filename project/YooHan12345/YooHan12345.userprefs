@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\Scripts\GameController.cs">
+    <Files>
+      <File FileName="Assets\Resources\Scripts\TipObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\HanResources\Scripts\PlayerMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\HanResources\Scripts\GUIManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\FallingEffect.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\MovePosition.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\Escape.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\TimeManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\FloorManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\HanResources\temporary\CeilingManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\GameController.cs" Line="100" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

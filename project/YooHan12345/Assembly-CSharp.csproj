@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{30F15CEE-5199-93CE-FFF0-26A3D67101D6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_0;UNITY_2017_1;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Samples\Scripts\DemoGUI.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Samples\Scripts\DemoPathFindingBehavior.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\AutonomousAgents\MovingBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\AutoTileMap\AutoTile.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\AutoTileMap\AutoTileBrush.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\AutoTileMap\AutoTileMap.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\AutoTileMap\AutoTileMapData.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\AutoTileMap\AutoTileMapEditorBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\AutoTileMap\AutoTileMapGui.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\AutoTileMap\AutoTileMapSerializeData.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\AutoTileMap\AutoTileset.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\AutoTileMap\RpgMapHelper.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\AutoTileMap\TileChunk.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\AutoTileMap\TileChunkPool.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\AutoTileMap\UtilsAutoTileMap.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\AutoTileMap\UtilsGuiDrawing.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\AutoTileMap\UtilsSerialize.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\Extra\Camera2DController.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\Extra\ComboBox.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\Extra\FollowObjectBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\MapPathFinding\MapPathFinding.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\MapPathFinding\MapPathFindingBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\MapPathFinding\PathFinding.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\AI\CompanionAI.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\AI\FollowerAI.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\AI\NPCBasicAI.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Animation\DirectionalAnimation.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Animation\DirectionalAnimationController.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Behaviours\DamageBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Behaviours\HelpText.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Behaviours\PhysicCharBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Behaviours\TeleporterBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Behaviours\TileMovementBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Behaviours\TouchFollowBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Controllers\AnimationController.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Controllers\BulletController.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Controllers\CharBasicController.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Controllers\IsoSpriteController.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Controllers\PlayerController.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Controllers\PlayerTileMovementController.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Controllers\VehicleCharController.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Controllers\WeaponController.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Core\DamageData.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Core\GameFactory.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Core\ObjectGenerator.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\RpgFramework\Legacy\CharAnimationController.cs" />
+     <Compile Include="Assets\CreativeSpore\RpgMapEditor\Scripts\Utils\HandlesEx.cs" />
+     <Compile Include="Assets\HanResources\Scripts\Arrive.cs" />
+     <Compile Include="Assets\HanResources\Scripts\DroppingObject.cs" />
+     <Compile Include="Assets\HanResources\Scripts\FallenObject_test.cs" />
+     <Compile Include="Assets\HanResources\Scripts\FallingObject.cs" />
+     <Compile Include="Assets\HanResources\Scripts\GUIManager.cs" />
+     <Compile Include="Assets\HanResources\Scripts\LoginManager.cs" />
+     <Compile Include="Assets\HanResources\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\HanResources\Scripts\UIButtonManager.cs" />
+     <Compile Include="Assets\HanResources\temporary\CeilingManager.cs" />
+     <Compile Include="Assets\HanResources\temporary\Falling_ceiling.cs" />
+     <Compile Include="Assets\Resources\Scripts\CameraShake.cs" />
+     <Compile Include="Assets\Resources\Scripts\Escape.cs" />
+     <Compile Include="Assets\Resources\Scripts\FallingEffect.cs" />
+     <Compile Include="Assets\Resources\Scripts\FloorManager.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameController.cs" />
+     <Compile Include="Assets\Resources\Scripts\Heart_Decrease.cs" />
+     <Compile Include="Assets\Resources\Scripts\Heart_Increase.cs" />
+     <Compile Include="Assets\Resources\Scripts\HeartManager.cs" />
+     <Compile Include="Assets\Resources\Scripts\ItemSpawnManager.cs" />
+     <Compile Include="Assets\Resources\Scripts\login.cs" />
+     <Compile Include="Assets\Resources\Scripts\MainButtonManager.cs" />
+     <Compile Include="Assets\Resources\Scripts\MainManager.cs" />
+     <Compile Include="Assets\Resources\Scripts\MovePosition.cs" />
+     <Compile Include="Assets\Resources\Scripts\RankingManager.cs" />
+     <Compile Include="Assets\Resources\Scripts\RotationEffect.cs" />
+     <Compile Include="Assets\Resources\Scripts\TestTrigger.cs" />
+     <Compile Include="Assets\Resources\Scripts\TimeManager.cs" />
+     <Compile Include="Assets\Resources\Scripts\TipObject.cs" />
+     <None Include="Assets\CreativeSpore\RpgMapEditor\Samples\Gfx\Characters\README_Credits.txt" />
+     <None Include="Assets\CreativeSpore\RpgMapEditor\Samples\Gfx\Tilesets\macks\README_Credits.txt" />
+     <None Include="Assets\CreativeSpore\RpgMapEditor\changelog.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
